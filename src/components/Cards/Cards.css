@@ -1,0 +1,92 @@
+.mainContainer {
+    margin : 50px 0;
+}
+
+.mainDailyContainer .MuiGrid-grid-md-6{
+    flex-grow: 0;
+    /* max-width: 16.666667%; */
+    flex-basis: 100% !important;
+        max-width: 300px !important;
+       
+}
+
+.mainDailyContainer .MuiPaper-root{
+    margin-bottom:15px !important
+}
+.card,.cardDaily {
+    margin:0 2% !important;
+}
+
+.mainDailyContainer .cases{
+    background-color: rgba(0,0,255,0.5) !important;
+}
+.recovered{
+    background-color: rgba(0,255,0,0.5) !important;
+}
+.death{
+    background-color: rgba(255,0,0.5) !important;
+}
+
+
+ .infected {
+    border-top:10px solid rgba(0,0,255,0.5);
+}
+.card .infected h5{
+    color:rgba(0,0,255,0.5);
+    font-weight: 900;
+}
+
+.recoveries {
+    border-top:10px solid rgba(0,255,0,0.5);
+}
+
+.recoveries h5{
+    color:rgba(0,255,0,0.5);
+    font-weight: 900;
+}
+ .deaths {
+    border-top:10px solid rgba(255,0,0.5);
+}
+ .deaths h5{
+    color:rgba(255,0,0.5);
+    font-weight: 900;
+}
+
+.active{
+    border-top:10px solid #b8a55c;
+}
+.active h5{
+    color:#b8a55c;
+    font-weight: 900;
+}
+
+@media (min-width: 820px) { 
+   
+    .MuiGrid-grid-md-2:hover {
+        cursor: pointer;
+        -moz-transform: scale(1.55);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        box-shadow: 2px 2px 2px 2px;
+     
+    
+    }
+  
+} 
+
+@media (min-width: 768px) and (max-width: 1024px){ 
+    .CountryPicker{
+        margin: 100px !important;
+      }
+      .countryFlag{
+        height: 200px !important;
+        
+    } 
+    .CountrySection {
+        justify-content:  center !important;
+    }
+   
+} 

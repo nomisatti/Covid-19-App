@@ -1,0 +1,25 @@
+.chart-container{
+    
+    justify-content: center;
+    margin: 50px;
+    width: 70% !important;
+}
+
+.countiresChart{
+    display: flex !important;
+}
+
+/* Media Query for Tablets Ipads portrait mode */ 
+@media  (max-width: 1024px){ 
+    .TopSection{
+        display: block !important;
+      }
+    
+} 
+
+/* Media Query for Tablets Ipads portrait mode */ 
+@media  (max-width: 960px){ 
+    .chart-container{
+        width: auto !important;
+    }
+} 

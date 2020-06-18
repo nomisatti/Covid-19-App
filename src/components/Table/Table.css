@@ -1,0 +1,10 @@
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (max-width: 800px){ 
+    .table-responsive{
+        height: 700px !important;
+    }
+}
+
+.table-bordered th, .table-bordered td {
+    
+    font-weight: 600 !important ;}

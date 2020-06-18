@@ -1,0 +1,74 @@
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+    .CountryPicker{
+        margin: 100px !important;
+      }
+      .countryFlag{
+        height: 200px !important;
+    } 
+    .CountrySection {
+        justify-content:  center !important;
+    }
+    body { 
+        background-color: red; 
+    } 
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+    .CountryPicker{
+        margin: 100px !important;
+      }
+      .countryFlag{
+        height: 200px !important;
+    } 
+    .CountrySection {
+        justify-content:  center !important;
+    }
+    body { 
+        background-color: yellow; 
+    } 
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+    .CountryPicker{
+        margin: 100px !important;
+      }
+      .countryFlag{
+        height: 200px !important;
+        
+    } 
+    .CountrySection {
+        justify-content:  center !important;
+    }
+    body { 
+        background-color: blue; 
+    } 
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px){ 
+    .CountryPicker{
+        margin: 100px !important;
+      }
+      .countryFlag{
+        height: 200px !important;
+    } 
+    body { 
+        background-color: green; 
+    } 
+} 
+  
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+    .CountryPicker{
+        margin: 100px !important;
+      }
+      .countryFlag{
+        height: 200px !important;
+    } 
+    body { 
+        background-color: white; 
+    } 
+}

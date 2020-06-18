@@ -9,6 +9,13 @@
     display: flex !important;
 }
 
+
+@media (max-width: 480px) { 
+    .chart-container .daily , .chart-container .bar{
+        display: none !important;
+    }
+} 
+
 /* Media Query for Tablets Ipads portrait mode */ 
 @media  (max-width: 1024px){ 
     .TopSection{

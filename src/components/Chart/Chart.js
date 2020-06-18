@@ -87,12 +87,12 @@ function Chart(country) {
     return (
         <div className="chart-container">
             <Grid container spacing={3} justify="center">
-                <Grid item component={Card} xs={10} md={10} className="card infected">
+                <Grid item component={Card} xs={10} md={10} className="card infected daily">
                     <CardContent>
                         {lineChart}
                     </CardContent>
                 </Grid>
-                <Grid item component={Card} xs={10} md={10} className="card infected">
+                <Grid item component={Card} xs={10} md={10} className="card infected bar">
                     <CardContent>
                         {barChart}
                     </CardContent>

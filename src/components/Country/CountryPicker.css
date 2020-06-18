@@ -9,9 +9,7 @@
     .CountrySection {
         justify-content:  center !important;
     }
-    body { 
-        background-color: red; 
-    } 
+  
 } 
   
 /* Media Query for low resolution  Tablets, Ipads */ 
@@ -25,9 +23,7 @@
     .CountrySection {
         justify-content:  center !important;
     }
-    body { 
-        background-color: yellow; 
-    } 
+   
 } 
   
 /* Media Query for Tablets Ipads portrait mode */ 
@@ -42,9 +38,7 @@
     .CountrySection {
         justify-content:  center !important;
     }
-    body { 
-        background-color: blue; 
-    } 
+ 
 } 
   
 /* Media Query for Laptops and Desktops */ 
@@ -55,9 +49,7 @@
       .countryFlag{
         height: 200px !important;
     } 
-    body { 
-        background-color: green; 
-    } 
+
 } 
   
 /* Media Query for Large screens */ 
@@ -68,7 +60,5 @@
       .countryFlag{
         height: 200px !important;
     } 
-    body { 
-        background-color: white; 
-    } 
+
 }

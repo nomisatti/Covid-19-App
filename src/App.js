@@ -29,7 +29,7 @@ function App() {
         <DataContext.Provider value={data}>
           <Header />
           <div className="container">
-            <div className="col-md-12 xs-12">
+            <div >
               <div className="form-inline CountrySection">
                 {countryFlag ? <img className="loader" src={require('./images/Coronavirus.gif')} alt="loader"></img> :
                   <img className="countryFlag" src={country ? data.countryInfo.flag : require('./images/Global.jpg')} alt="img" />}

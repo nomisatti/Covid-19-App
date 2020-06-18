@@ -54,7 +54,7 @@ function Table({ columns, data,initialState }) {
     const firstPageRows = rows.slice()
 
     return (
-        <div class="table-responsive"> 
+        <div className="table-responsive"> 
                     
             <table className="table table-bordered" {...getTableProps()}>
                 <thead className="thead-dark">

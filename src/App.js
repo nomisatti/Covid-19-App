@@ -50,7 +50,7 @@ function App() {
           </div>
         </DataContext.Provider>
       </div>
-      : 'Loading ....'
+      : <div className="App"><img className="load "  src={require('./images/preloader.gif')} alt="loader"></img></div>
   )
 }
 

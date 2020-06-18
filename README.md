@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Basic Covid-19 Web App
 
 
-### Visi Website here
+### Visit Website here
 
  Visit : http://covid-19-app-ns.surge.sh/
 
